@@ -3,8 +3,7 @@ wrote a little script to export the AWS credentials to environmental variables
 
 The functionality is as follows: 
 
-python export_env.py --access_id <AWS Access ID> --secret <AWS Secret Key>
---export ~/<the file you want to write to>
+  python export_env.py --access_id <AWS Access ID> --secret <AWS Secret Key> --export ~/<the file you want to write to>
 
 Typically in a Unix environment, persistent environmental variables are stored
 in ~/.bashrc
